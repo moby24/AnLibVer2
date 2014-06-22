@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moby.anlib"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="an_lib.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="fragment_app.AnActivity" >
+        </activity>
+        <activity
+            android:name="an_lib.AnInfo"
+            android:label="@string/name" >
+        </activity>
+        <activity
+            android:name="video_package.Video"
+            android:label="@string/video" >
+        </activity>
+        <activity
+            android:name="video_package.MainVideo"
+            android:label="@string/wifi" >
+        </activity>
+        <activity
+            android:name="guess_the_plane.GameActivity"
+            android:label="@string/game" >
+        </activity>
+        <activity
+            android:name="guess_the_plane.Rules"
+            android:label="@string/game" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn225"
+            android:label="@string/a1" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn124"
+            android:label="@string/a2" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn70"
+            android:label="@string/a3" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn32"
+            android:label="@string/a4" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn22"
+            android:label="@string/a5" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn12"
+            android:label="@string/a6" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn158"
+            android:label="@string/a7" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn148"
+            android:label="@string/a8" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn140"
+            android:label="@string/a9" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn74"
+            android:label="@string/a10" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn74TK300"
+            android:label="@string/a11" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn38"
+            android:label="@string/a12" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn2"
+            android:label="@string/a13" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn3"
+            android:label="@string/a14" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn2B"
+            android:label="@string/a15" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn6"
+            android:label="@string/a16" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn32P"
+            android:label="@string/a17" >
+        </activity>
+        <activity
+            android:name="info_gallery.GalleryAn74MP"
+            android:label="@string/a18" >
+        </activity>
+        <activity
+            android:name="video_package.StaticVideo"
+            android:label="@string/video" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.eipetf.tdlnva180780.APPID"
+            android:value="211172" />
+        <meta-data
+            android:name="com.eipetf.tdlnva180780.APIKEY"
+            android:value="android*1395514026180780323>" />
+
+        <activity
+            android:name="com.eipetf.tdlnva180780.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.eipetf.tdlnva180780.BrowserActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.eipetf.tdlnva180780.VDActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+    </application>
+
+</manifest>
