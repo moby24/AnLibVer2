@@ -34,7 +34,6 @@ public class AnInfo extends Activity {
 	SimpleExpandableListAdapter adapter;
 
 	GalleryAn225.AnInfoMriya ah;
-	
 	GalleryAn124.AnInfoRyslan ar;
 	GalleryAn70.AnInfoRyslan an70;
 	GalleryAn32.AnInfoRyslan an32;
